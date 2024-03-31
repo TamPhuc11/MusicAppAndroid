@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="99dp" android:width="164dp"/>
+    <gradient android:startColor="@color/den_lot" android:endColor="@color/den_lot"/>
+    <corners android:radius="20dp"/>
+</shape>

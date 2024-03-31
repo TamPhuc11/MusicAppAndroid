@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Trang chủ"  android:icon="@drawable/home"  android:id="@+id/menuHome"/>
+    <item android:title="Tìm kiếm"  android:icon="@drawable/timkiem" android:id="@+id/menuSearch"/>
+    <item android:title="Thư viện"  android:icon="@drawable/libra"  android:id="@+id/menuLibrary"/>
+    <item android:title="Tài khoản "  android:icon="@drawable/user" android:id="@+id/menuInfo"/>
+</menu>

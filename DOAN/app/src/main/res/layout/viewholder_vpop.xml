@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frame_vpop"
+    android:layout_width="143dp"
+    android:layout_height="161dp">
+
+    <LinearLayout
+        android:layout_width="143dp"
+        android:layout_height="161dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgVpop"
+            android:layout_width="141dp"
+            android:layout_height="122dp"
+            app:srcCompat="@drawable/ctcht" />
+
+        <TextView
+            android:id="@+id/tvTenVpop"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:gravity="center"
+            android:text="Tên bài hát"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+    </LinearLayout>
+</FrameLayout>
